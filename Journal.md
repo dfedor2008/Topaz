@@ -1,3 +1,10 @@
+---
+title: "Topaz"
+author: "Dawid Fedor"
+description: "Radio module which can send morse code or pressure, temperature and humitidy"
+created_at: "2025-05-28"
+---
+
 Day 1:
 Today I worked on the schematic. I decided to use a SAMD21, an SX1262, and a BME280, as I have previous experience with them.
 
