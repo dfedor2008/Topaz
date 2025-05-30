@@ -6,8 +6,10 @@ created_at: "2025-05-28"
 ---
 
 Day 1:
-Today I worked on the schematic. I decided to use a SAMD21, an SX1262, and a BME280, as I have previous experience with them. 
+Today I worked on the schematic. I decided to use a SAMD21, an SX1262, and a BME280, as I have previous experience with them. I imported custom parts from Snap EDA and modified the (PE4257, and ESC32TXO).
 Time spent:~2 hours
+![image](https://github.com/user-attachments/assets/426dea85-c6ab-4282-aeb5-567c2c0c2165)
+
 
 Day 2:
 The schematic is finished. I moved on to the PCB layout. I imported a custom oscillator (ECS-327TXO-2012) for the SAMD21. I'm quite happy with the design so far.
@@ -23,6 +25,8 @@ Day 4:
 Final changes were added. Fixed certain errors in DRC. Fixed final arragment problems. I went back to KiCad and ran ERC to checked and fixed any errors.
 I reviewed for a final time the schematic to see if I missed anything ( compared it with the manufactorers reference design and datasheets). 
 Time spent: 1.25 hours
+![image](https://github.com/user-attachments/assets/9d6ee133-5bca-4c68-a8b3-d9f310b69f3c)
+
 
 Overall Notes:
 The biggest challenge I faced was figuring out the RF section. The manufacturer-recommended RF switch, the BGS12WN6E6327, is extremely small and nearly impossible to solder by hand.
