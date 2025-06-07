@@ -11,11 +11,13 @@ After soldering check for shorts and plug in the PCB (not to your computer) . If
 pcb and check for shorts. If there are no shorts then plug it into your computer.
 
 PCB Schematic:
-![image](https://github.com/user-attachments/assets/3bd511ed-cf4c-4571-86a7-30bdd9c31cae)
+![image](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
 
 
 PCB Layout:
+![image](https://github.com/user-attachments/assets/378aa5f3-1122-452e-8baf-344f799cf8b8)
 
-![image](https://github.com/user-attachments/assets/12e91686-8c41-48be-96f7-9119571b345a)
+
+
 
 
