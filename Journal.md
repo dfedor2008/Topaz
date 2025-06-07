@@ -1,7 +1,7 @@
 ---
 title: "Topaz"
 author: "Dawid Fedor"
-description: "Radio module which can send morse code or pressure, temperature and humitidy"
+description: "Radio module which can pressure, temperature and humitidy, and location"
 created_at: "2025-05-27"
 ---
 Total time: 4.5h
@@ -26,6 +26,11 @@ Final changes were added. Fixed certain errors in DRC. Fixed final arragment pro
 I reviewed for a final time the schematic to see if I missed anything ( compared it with the manufactorers reference design and datasheets). 
 Time spent: 1.25 hours
 ![image](https://github.com/user-attachments/assets/9d6ee133-5bca-4c68-a8b3-d9f310b69f3c)
+
+Day 5:
+I added a GPS module so that location can be transmitted. I added a ATGM336H, which is a very cheap module.
+![image](https://github.com/user-attachments/assets/5953250e-d070-40ac-8189-2106e2e3f7e4)
+
 
 
 Overall Notes:
