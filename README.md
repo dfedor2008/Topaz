@@ -6,6 +6,7 @@ The barometric pressure sensor is a BME 280. It is a cheap and reliable pressure
 
 
 Application notes:
+
 After getting the PCB you should begin by soldering it. If you have a heating plate, then I would use it for sure.
 After soldering check for shorts and plug in the PCB (not to your computer) . If you see smoke, imedaitly unplug the
 pcb and check for shorts. If there are no shorts then plug it into your computer.
