@@ -14,6 +14,8 @@ pcb and check for shorts. If there are no shorts then plug it into your computer
 Why I made this project:
 
 I made this project because I wanted to make a GPS tracker which I could use to track my bus ( which is often very late). 
+I would also like to use it to track brother while playing hide and seek ( a practical joke). This project however as a lot
+of other possible applications with tracking and sending data.
 
 PCB Schematic:
 ![image](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
