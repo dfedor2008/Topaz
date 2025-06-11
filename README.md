@@ -11,6 +11,7 @@ After soldering check for shorts and plug in the PCB (not to your computer) . If
 pcb and check for shorts. If there are no shorts then plug it into your computer.
 
 Why I made this project:
+
 I made this project because I wanted to make a GPS tracker which I could use to track my bus ( which is often very late). 
 
 PCB Schematic:
