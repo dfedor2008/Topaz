@@ -10,6 +10,9 @@ After getting the PCB you should begin by soldering it. If you have a heating pl
 After soldering check for shorts and plug in the PCB (not to your computer) . If you see smoke, imedaitly unplug the
 pcb and check for shorts. If there are no shorts then plug it into your computer.
 
+Why I made this project:
+I made this project because I wanted to make a GPS tracker which I could use to track my bus ( which is often very late). 
+
 PCB Schematic:
 ![image](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
 
