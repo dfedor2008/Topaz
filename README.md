@@ -9,7 +9,8 @@ Application notes:
 
 After getting the PCB you should begin by soldering it. If you have a heating plate, then I would use it for sure.
 After soldering check for shorts and plug in the PCB (not to your computer) . If you see smoke, imedaitly unplug the
-pcb and check for shorts. If there are no shorts then plug it into your computer.
+pcb and check for shorts. If there are no shorts then plug it into your computer. The code will be uploaded after I assemble the PCB.
+The whole PCB is made so that it can be cheap and reliable.
 
 Why I made this project:
 
