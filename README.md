@@ -18,6 +18,12 @@ I made this project because I wanted to make a GPS tracker which I could use to 
 I would also like to use it to track brother while playing hide and seek ( a practical joke). This project however as a lot
 of other possible applications with tracking and sending data.
 
+How someone can use it:
+Topaz is a versatile GPS tracker designed to transmit real-time telemetry data over radio. Whether you're keeping track of hikers to ensure no one gets lost, or recovering a high-flying rocket after launch, Topaz provides reliable location tracking without relying on cellular networks. Its flexible design makes it suitable for a wide range of applications based on what you are trying to achieve.
+
+How it works:
+Topaz uses the ATGM336H GPS module to collect positioning and telemetry data. This data is then processed by the SAMD21 microcontroller, which handles communication and control logic. The processed data is transmitted via the SX1262 radio module, which functions as both a transmitter and a receiver. This enables two Topaz devices to communicate with each other. All code will be writted in C++ due to the libraries for these sensors are very reliable.
+
 PCB Schematic:
 ![image](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
 
