@@ -1,35 +1,62 @@
                                                                             Topaz
 
-Topaz is a PCB which uses a SX1262 radio to send morse code up to 13 km. It can also be used to send temperature :).
-The microcontroller is a SAMD21 which is a great microcontroller which I used because of my previous experience with it.
-The barometric pressure sensor is a BME 280. It is a cheap and reliable pressure, temperature, and humidity sensor.
+Topaz
+Topaz is a low-cost, long-range GPS telemetry system based on a custom PCB. It uses an SX1262 LoRa radio to send Morse code or telemetry data up to 13 km. It can also transmit temperature, pressure, and humidity using a BME280 sensor.
+
+Overview
+Microcontroller: SAMD21 — chosen for reliability and familiarity.
+
+Radio: SX1262 — supports long-range communication using LoRa.
+
+Sensor: BME280 — measures temperature, humidity, and barometric pressure.
+
+GPS: ATGM336H — provides real-time location and telemetry data.
+
+Why I Made This Project
+I originally built Topaz as a personal GPS tracker to monitor my frequently late bus. Later, I realized it could also be used for fun applications—like tracking my brother during a game of hide and seek!
+
+This idea quickly expanded into a general-purpose tracking system that can be used for many projects involving remote data transmission.
+
+Use Cases
+Topaz can be used in a variety of real-world and hobbyist applications:
+
+Tracking hikers or groups in remote areas
+
+Recovery of rockets or weather balloons
+
+Monitoring environmental conditions
+
+Custom telemetry projects without relying on cellular networks
+
+How It Works
+The ATGM336H GPS module collects location and telemetry data.
+
+The SAMD21 processes the data and controls device operation.
+
+The SX1262 LoRa module transmits the data in Morse code or as packets.
+
+A second Topaz device can act as a receiver, enabling two-way communication.
+
+All code is written in C++ using well-supported sensor libraries.
+
+Application Notes
+After receiving the PCB:
+
+Solder the board — a heating plate is recommended if you have one.
+
+Inspect for shorts — especially around the microcontroller and power lines.
+
+Power the board (not via computer USB yet) — if you see smoke, unplug immediately and re-check the solder joints.
+
+Once no shorts are found, plug into your computer via USB.
+
+🔧 The firmware will be uploaded after PCB assembly. The entire design is optimized for low cost and reliability.
+
+PCB Schematic
 
 
-Application notes:
+PCB Layout
 
-After getting the PCB you should begin by soldering it. If you have a heating plate, then I would use it for sure.
-After soldering check for shorts and plug in the PCB (not to your computer) . If you see smoke, imedaitly unplug the
-pcb and check for shorts. If there are no shorts then plug it into your computer. The code will be uploaded after I assemble the PCB.
-The whole PCB is made so that it can be cheap and reliable.
-
-Why I made this project:
-
-I made this project because I wanted to make a GPS tracker which I could use to track my bus ( which is often very late). 
-I would also like to use it to track brother while playing hide and seek ( a practical joke). This project however as a lot
-of other possible applications with tracking and sending data.
-
-How someone can use it:
-Topaz is a versatile GPS tracker designed to transmit real-time telemetry data over radio. Whether you're keeping track of hikers to ensure no one gets lost, or recovering a high-flying rocket after launch, Topaz provides reliable location tracking without relying on cellular networks. Its flexible design makes it suitable for a wide range of applications based on what you are trying to achieve.
-
-How it works:
-Topaz uses the ATGM336H GPS module to collect positioning and telemetry data. This data is then processed by the SAMD21 microcontroller, which handles communication and control logic. The processed data is transmitted via the SX1262 radio module, which functions as both a transmitter and a receiver. This enables two Topaz devices to communicate with each other. All code will be writted in C++ due to the libraries for these sensors are very reliable.
-
-PCB Schematic:
-![image](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
-
-
-PCB Layout:
-![image](https://github.com/user-attachments/assets/378aa5f3-1122-452e-8baf-344f799cf8b8)
 
 
 
