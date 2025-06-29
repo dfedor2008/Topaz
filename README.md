@@ -2,7 +2,6 @@
 
 **Topaz** is a low-cost, long-range GPS telemetry system based on a custom PCB. It uses an **SX1262 LoRa radio** to send **Morse code** or **telemetry data** up to 13 km. It can also transmit **temperature, pressure, and humidity** using a BME280 sensor.
 
----
 
 ## Overview
 
@@ -11,7 +10,6 @@
 - **Sensor**: BME280 — measures temperature, humidity, and barometric pressure.
 - **GPS**: ATGM336H — provides real-time location and telemetry data.
 
----
 
 ## Why I Made This Project
 
@@ -19,7 +17,6 @@ I originally built Topaz as a personal **GPS tracker** to monitor my frequently 
 
 This idea quickly expanded into a general-purpose tracking system that can be used for many projects involving remote data transmission.
 
----
 
 ## Use Cases
 
@@ -30,7 +27,7 @@ Topaz can be used in a variety of real-world and hobbyist applications:
 - Monitoring environmental conditions  
 - Custom telemetry projects without relying on cellular networks
 
----
+
 
 ## How It Works
 
@@ -41,7 +38,7 @@ Topaz can be used in a variety of real-world and hobbyist applications:
 
 All code is written in **C++** using well-supported sensor libraries.
 
----
+
 
 ## Application Notes
 
@@ -52,15 +49,14 @@ After receiving the PCB:
 3. **Power the board (not via computer USB yet)** — if you see smoke, **unplug immediately** and re-check the solder joints.  
 4. Once no shorts are found, plug into your computer via USB.
 
-> 🔧 The firmware will be uploaded after PCB assembly. The entire design is optimized for **low cost** and **reliability**.
+> The firmware should be uploaded after PCB assembly. The entire design is optimized for **low cost** and **reliability**.
 
----
 
 ## PCB Schematic
 
 ![Topaz Schematic](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
 
----
+
 
 ## PCB Layout
 
