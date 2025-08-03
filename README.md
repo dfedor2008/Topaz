@@ -1,4 +1,4 @@
-![Topaz Logo](https://github.com/user-attachments/assets/f2879cd7-5488-43de-9e77-05d04c68f9a8)
+
 
 # Topaz - A Lightweight Long-Range GPS Telemetry System
 
