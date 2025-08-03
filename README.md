@@ -77,41 +77,6 @@ This project uses the Arduino platform. Libraries include:
 - Adafruit_BME280  
 - RadioHead or LoRa drivers for SX1262  
 
-### Customization Options
-
-- Telemetry interval  
-- Morse code transmission speed  
-- Sensor read frequency  
-- Sleep modes for low power operation  
-- UART debug modes
-
----
 
 
-
----
-
-## Contact
-
-For questions, suggestions, or collaboration:  
-📧 **topaztelemetry@gmail.com**
-
----
-
-## Acknowledgments
-
-Special thanks to:
-
-- Open-source contributors in the LoRa and SAMD21 ecosystem  
-- Communities around [High Altitude Ballooning](https://en.wikipedia.org/wiki/High-altitude_balloon)  
-- Everyone providing feedback and testing support
-
----
-
-## More Images
-
-![Photo 1](https://cloud-ivkikeghh-hack-club-bot.vercel.app/0img_20241231_123601.jpg)  
-![Photo 2](https://cloud-as6j73c1n-hack-club-bot.vercel.app/0img_6985.jpg)  
-![Photo 3](https://cloud-as6j73c1n-hack-club-bot.vercel.app/2img_6986.jpg)  
-![Photo 4](https://cloud-as6j73c1n-hack-club-bot.vercel.app/3img_6981.jpg)
 
